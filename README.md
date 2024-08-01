@@ -17,7 +17,7 @@ This repository contains a Streamlit application that allows users to chat with 
 - `langchain`: For managing the conversation flow and integrating with OpenAI.
 - `PyPDF2`: For parsing PDF documents.
 - `FAISS`: For efficient vector storage and similarity search.
-- `openai`: For accessing OpenAI's GPT-3 API.
+- `openai`: For accessing OpenAI's GPT-4o API.
 
 ## Directory Structure
 ```markdown
@@ -72,7 +72,7 @@ ChatPDF/
 3. **Chat Handling**:
     - User inputs are taken from the chat interface.
     - The most relevant text from the vector store is retrieved based on the user's query.
-    - This relevant text, combined with the user's query, is used as a prompt for OpenAI's GPT-3 to generate a response.
+    - This relevant text, combined with the user's query, is used as a prompt for OpenAI's GPT-4o to generate a response.
     - The response is displayed in the chat interface.
 
 ## User Experience
