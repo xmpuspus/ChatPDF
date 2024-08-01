@@ -2,7 +2,7 @@
 
 ![Demo](sample_demo.gif)
 
-This repository contains a Streamlit application that allows users to chat with the content of an uploaded PDF file using OpenAI's GPT-3. The application leverages LangChain for managing conversation flow and embedding PDFs into a vector database for efficient querying.
+This repository contains a Streamlit application that allows users to chat with the content of an uploaded PDF file using OpenAI's GPT-4o. The application leverages LangChain for managing conversation flow and embedding PDFs into a vector database for efficient querying.
 
 ## Features
 
